@@ -22,9 +22,10 @@ for file in dir_files:
             dirName = dest_dir + "\\" + "Other Files"
             if not os.path.exists(dirName):
                 os.mkdir(dirName)
-        print(files_dir +"\\"+file, dirName)
-        shutil.move(files_dir + file, dirName)
-
+        if not os.path.exists(dirName+"\\"+file):
+            shutil.move(files_dir +"\\"+file, dirName)
+        else:
+            print("File Already exists")
     except:
         print(file)
 
