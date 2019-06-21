@@ -11,6 +11,10 @@
    'c:\\users\\satvik '
    'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\datetime.py',
    'PYMODULE'),
+  ('typing',
+   'c:\\users\\satvik '
+   'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
+   'PYMODULE'),
   ('tracemalloc',
    'c:\\users\\satvik '
    'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\tracemalloc.py',
@@ -18,14 +22,6 @@
   ('stringprep',
    'c:\\users\\satvik '
    'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\stringprep.py',
-   'PYMODULE'),
-  ('typing',
-   'c:\\users\\satvik '
-   'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\typing.py',
-   'PYMODULE'),
-  ('_py_abc',
-   'c:\\users\\satvik '
-   'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
    'PYMODULE'),
   ('__future__',
    'c:\\users\\satvik '
@@ -522,6 +518,10 @@
   ('doctest',
    'c:\\users\\satvik '
    'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\doctest.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'c:\\users\\satvik '
+   'kalyan\\appdata\\local\\programs\\python\\python37\\lib\\_py_abc.py',
    'PYMODULE'),
   ('pickle',
    'c:\\users\\satvik '

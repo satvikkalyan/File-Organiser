@@ -50,11 +50,9 @@ def browse_f_button():
     elif(len(dir_list)==0):
         dir_list.append('')
         dir_list.append(filename)
+
+
 def write_to_file(temp_dict):
-    files_naming[".py"] = "python files"
-    files_naming[".txt"] = "text Document"
-    files_naming[".pdf"] = "PDF Files"
-    files_naming[".docx"] = "Word Documents"
     with open('file_name.txt', 'wb') as file_data_dictionary_file:
         pickle.dump(temp_dict, file_data_dictionary_file)
 
@@ -70,13 +68,18 @@ def move_files_func():
 
 
 def read_from_file():
-    with open('file_name.txt', 'rb') as file_data_dictionary_file:
-        temp_dict = pickle.load(file_data_dictionary_file)
-        index=0
-        for field in temp_dict:
-            mylist.insert(index,str(field+"         "+temp_dict[field]))
-            index=index+1
-        return temp_dict
+    try:
+        with open('file_name.txt', 'rb') as file_data_dictionary_file:
+            temp_dict = pickle.load(file_data_dictionary_file)
+            index=0
+            for field in temp_dict:
+                mylist.insert(index,str(field+"         "+temp_dict[field]))
+                index=index+1
+            return temp_dict
+    except:
+        file = open('file_name.txt', 'w')
+        file.close()
+        return {}
 
 def add_exts():
     temp_dict=read_from_file()
@@ -93,11 +96,7 @@ def add_exts():
     else:
         temp_dict[ext] = folder_name
         write_to_file(temp_dict)
-    mylist.delete(0, 'end')
-    index=0
-    for field in temp_dict:
-        mylist.insert(index,str(field+"         "+temp_dict[field]))
-        index=index+1
+    clean_and_populate(mylist, temp_dict)
 
 def delete_ext():
     temp_dict=read_from_file()
@@ -133,11 +132,9 @@ scrollbar = Scrollbar(AddextFrame)
 scrollbar.place(  x=300,y=100)
 mylist = Listbox(AddextFrame, yscrollcommand = scrollbar.set )
 mylist.place(x=300,y=100,height=200,width=200)
-
-
 scrollbar.config( command = mylist.yview )
-#write_to_file()
-read_from_file()
+
+clean_and_populate(mylist,read_from_file())
 
 
 initial_path_label=StringVar()
