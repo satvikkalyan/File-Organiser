@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a97b14-b3f1-4ff6-b046-ac36096ac896" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/oraganise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/testtkinter.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/CSESyllabus-Vsem.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/file1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/test.file.name.py.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/unordered Files/test.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/file_organizer.py" afterPath="$PROJECT_DIR$/src/file_organizer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,10 +22,23 @@
       <file leaf-file-name="file_organizer.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/file_organizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="321">
+              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
+                <marker date="1561104186601" expanded="true" signature="125:1236" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="125:2325" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="1238:1783" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="1238:2325" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="1784:2106" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="2327:2649" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="2327:4012" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="3922:4012" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="4014:4331" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="4411:5766" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="4658:5766" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="4678:5255" ph="..." />
+                <marker date="1561104186601" expanded="true" signature="4678:5766" ph="..." />
               </folding>
             </state>
           </provider>
@@ -37,6 +53,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>frame</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,13 +69,16 @@
         <option value="$PROJECT_DIR$/src/tkinter.py" />
         <option value="$PROJECT_DIR$/src/oraganise.py" />
         <option value="$PROJECT_DIR$/src/testtkinter.py" />
+        <option value="$PROJECT_DIR$/src/file_organiser_multi_frames.py" />
+        <option value="$PROJECT_DIR$/src/t.py" />
+        <option value="$PROJECT_DIR$/src/file_organizer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-293" />
-    <option name="y" value="109" />
-    <option name="width" value="1382" />
+    <option name="x" value="675" />
+    <option name="y" value="-8" />
+    <option name="width" value="699" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,42 +134,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.testtkinter">
-    <configuration name="oraganise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="File Oragniser" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/oraganise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="File Oragniser" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="testtkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.file_organizer">
+    <configuration name="file_organiser_multi_frames" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -157,21 +147,55 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="File Oragniser" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/testtkinter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/file_organiser_multi_frames.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="file_organizer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="File Oragniser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/file_organizer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="File Oragniser" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/t.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Python.test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.oraganise" />
-      <item index="2" class="java.lang.String" itemvalue="Python.testtkinter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.file_organizer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.file_organiser_multi_frames" />
+      <item index="2" class="java.lang.String" itemvalue="Python.t" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.testtkinter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.oraganise" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.file_organizer" />
+        <item index="1" class="java.lang.String" itemvalue="Python.t" />
+        <item index="2" class="java.lang.String" itemvalue="Python.file_organiser_multi_frames" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +220,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -216,7 +240,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -241,12 +267,49 @@
     <entry file="file://$PROJECT_DIR$/src/test.py" />
     <entry file="file://$PROJECT_DIR$/src/oraganise.py" />
     <entry file="file://$PROJECT_DIR$/src/testtkinter.py" />
+    <entry file="file://$PROJECT_DIR$/src/file_organiser_multi_frames.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="26" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="58" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="2805" column="0" lean-forward="false" selection-start-line="2805" selection-start-column="0" selection-end-line="2805" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/file_organizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="321">
+          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
+            <marker date="1561104186601" expanded="true" signature="125:1236" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="125:2325" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="1238:1783" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="1238:2325" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="1784:2106" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="2327:2649" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="2327:4012" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="3922:4012" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="4014:4331" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="4411:5766" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="4658:5766" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="4678:5255" ph="..." />
+            <marker date="1561104186601" expanded="true" signature="4678:5766" ph="..." />
           </folding>
         </state>
       </provider>
